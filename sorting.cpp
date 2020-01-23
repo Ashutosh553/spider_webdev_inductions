@@ -60,12 +60,14 @@ void mergesort(int a[],int left,int right)
  { int n;
  int a[1000];
  
+  cout<<"ENTER THE NUMBER OF ELEMENT\n ";
  	cin>>n;
+  cout<<"ENTER YOUR NUMBER FOR SORTING\n";
  	for(int i=0;i<n;i++)
  	cin>>a[i];
  	
  	mergesort(a,0,n-1);
- 	cout<<"the sorted array is ";
+ 	cout<<"YOUR SORTED NUMBERS ARE  ";
  	for(int i=0;i<n;i++)
  	{
 	 cout<<a[i];
